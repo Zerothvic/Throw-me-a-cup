@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Throw Me a Cup — Clean Water for Every Community</title>
+    <meta name="description" content="Throw Me a Cup funds water filtration, research, and education so more communities can access safe, clean water.">
+
+    <link rel="stylesheet" href="TMAC.css" />
+    <script src="https://kit.fontawesome.com/397ff7ed87.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" sizes="64x64" href="images/logo-2.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Federo&family=Luckiest+Guy&family=Yeseva+One&family=Noto+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<!-- ============ HEADER / NAV / HERO ============ -->
+<header class="site-header">
+    <div class="topbar">
+        <div class="topbar-inner">
+            <a class="brand" href="#home" aria-label="Throw Me a Cup — home">
+                <img src="images/logo-1.png" alt="" class="brand-logo">
+                <span class="brand-name">Throw Me a Cup</span>
+            </a>
+
+            <button class="burger-btn" id="main-burger-btn" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-burger-menu">
+                <span></span>
+            </button>
+
+            <div class="nav-panel" id="main-burger-menu">
+                <nav class="main-nav" aria-label="Primary">
+                    <ul class="nav-list">
+                        <li><a class="nav-link" href="#home">Home</a></li>
+                        <li><a class="nav-link" href="#about">About Us</a></li>
+                        <li><a class="nav-link" href="#projects">Projects</a></li>
+                        <li><a class="nav-link" href="#donate">Donate</a></li>
+                        <li><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-actions">
+                    <button class="btn btn-outline" type="button">Sign Up</button>
+                    <button class="btn btn-outline" type="button">Sign In</button>
+                </div>
+                <form class="search-form" id="main-search-bar" action="search" method="get" role="search">
+                    <label class="sr-only" for="main-search-input">Search the site</label>
+                    <input class="search-input" id="main-search-input" type="text" name="q" placeholder="Search…" required>
+                    <button class="search-btn" type="submit" aria-label="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero">
+        <img src="images/header-4.png" alt="" class="hero-bg" aria-hidden="true">
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fadeInUp delay-1">Throw Me a Cup</h1>
+            <p class="hero-subtitle animate-fadeInUp delay-2">Water means something to me.</p>
+            <div class="hero-cta animate-fadeInUp delay-3">
+                <a href="#donate" class="btn btn-primary">Take Action</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main id="main-content">
+
+    <!-- ============ HOME / INTRO ============ -->
+    <section class="section" id="home">
+        <div class="container">
+            <h2 class="section-title animate-fadeInUp">Not a Liter, Not a Gallon — Just a Cup</h2>
+
+            <div class="home-layout">
+                <div class="home-copy animate-fadeInUp">
+                    <p>Did you know that only 1 in 4 people worldwide have reliable access to safe, drinkable water? Lack of clean water remains one of the world's most urgent challenges. Millions of people, especially in developing regions, struggle daily to access safe water for drinking, cooking, and hygiene.</p>
+                    <p>Contamination from industrial waste, agricultural runoff, and inadequate sanitation systems worsens the crisis, while climate change intensifies droughts and disrupts water supplies, placing additional strain on vulnerable communities. Without clean water, health risks like dehydration and waterborne disease increase dramatically.</p>
+                    <p>Access to safe water is a fundamental human right, essential for life and dignity. Addressing this global issue requires sustainable infrastructure, responsible resource management, and international cooperation.</p>
+                    <p class="communities-line">Communities: Cuba · India · Brazil · Nigeria</p>
+                </div>
+
+                <div class="home-media">
+                    <div class="image-slider">
+                        <div class="slider-frame">
+                            <img id="main-image" src="images/communities-cuba.png" alt="A community we work with, drawing clean water">
+                        </div>
+                        <div class="thumbnails-gallery" role="tablist" aria-label="Community photos">
+                            <img src="images/communities-cuba.png" alt="Community in Cuba" class="thumbnail active" data-index="0">
+                            <img src="images/community-indian.jpg" alt="Community in India" class="thumbnail" data-index="1">
+                            <img src="images/community-brazil.jpeg" alt="Community in Brazil" class="thumbnail" data-index="2">
+                            <img src="images/Community-Nigeria.jpg" alt="Community in Nigeria" class="thumbnail" data-index="3">
+                        </div>
+                    </div>
+
+                    <div class="video-card">
+                        <div class="video-frame">
+                            <video controls loop src="videos/water-ted-video.mp4"></video>
+                        </div>
+                        <p class="video-caption">Fresh water is essential for life — and there's not nearly enough of it for the world right now. Why is that, and what could we do? Christiana Z. Peppard lays out the big questions of our global water problem. And no, shorter showers are not the answer.</p>
+                        <p class="video-credit">Lesson by Christiana Z. Peppard, animation by Jeremy Collins. Video credit: TED-Ex</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section section-alt" id="about">
+        <div class="container">
+            <h2 class="section-title">Who We Are</h2>
+            <div class="mission-grid">
+                <div class="mission-card">
+                    <p class="mission-label">Problem</p>
+                    <div class="mission-icon"><i class="fa-solid fa-droplet-slash"></i></div>
+                    <p>Lack of clean, drinkable water threatens global health and development, leaving millions vulnerable to disease, poverty, and environmental insecurity.</p>
+                </div>
+                <div class="mission-card">
+                    <p class="mission-label">Solution</p>
+                    <div class="mission-icon"><i class="fa-solid fa-lightbulb"></i></div>
+                    <p>Providing affordable filtration systems, investing in water research, and running community sensitization campaigns can significantly improve access to safe, drinkable water worldwide.</p>
+                </div>
+                <div class="mission-card">
+                    <p class="mission-label">Vision</p>
+                    <div class="mission-icon"><i class="fa-brands fa-readme"></i></div>
+                    <p>A world where every community can access clean water through effective filtration, continuous research, and awareness campaigns that ensure lasting health.</p>
+                </div>
+            </div>
+
+            <h2 class="section-title">Team Heads</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="images/staff-1.png" alt="Sarah Ijoba">
+                    <div class="team-info">
+                        <p class="team-name">Sarah Ijoba</p>
+                        <p class="team-role">Executive Director</p>
+                        <p class="team-bio">Leads the organization's strategic direction, forging partnerships and guiding mission-driven initiatives that promote sustainable water use. With deep experience in environmental leadership, she oversees operations, influences policy, and ensures impactful conservation outcomes.</p>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" aria-label="X (Twitter)"><i class="fa-solid fa-x"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="images/staff-3.jpg" alt="Daniel Umoh">
+                    <div class="team-info">
+                        <p class="team-name">Daniel Umoh</p>
+                        <p class="team-role">Research Director</p>
+                        <p class="team-bio">Oversees all scientific and technical studies, driving innovation in water conservation methods and technologies. He manages research teams, analyzes data, and translates findings into practical, evidence-based solutions.</p>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" aria-label="X (Twitter)"><i class="fa-solid fa-x"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="images/staff-2.png" alt="Nneka Wisdom">
+                    <div class="team-info">
+                        <p class="team-name">Nneka Wisdom</p>
+                        <p class="team-role">Public Relations Manager</p>
+                        <p class="team-bio">Manages the organization's public image, communication strategy, and stakeholder engagement. Through targeted outreach and media relations, she raises awareness of conservation issues and inspires community participation.</p>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" aria-label="X (Twitter)"><i class="fa-solid fa-x"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="images/staff-4.jpg" alt="Miriam Abubakar">
+                    <div class="team-info">
+                        <p class="team-name">Miriam Abubakar</p>
+                        <p class="team-role">Head of Finance</p>
+                        <p class="team-bio">Directs financial planning, budgeting, and compliance to maintain organizational stability and transparency. She ensures responsible resource management and supports strategic, sustainable investment.</p>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" aria-label="X (Twitter)"><i class="fa-solid fa-x"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="images/staff-5.jpg" alt="Victor Emmanuel">
+                    <div class="team-info">
+                        <p class="team-name">Victor Emmanuel</p>
+                        <p class="team-role">Head of Projects</p>
+                        <p class="team-bio">Leads the development and execution of conservation programs, coordinating teams and resources to deliver effective, scalable solutions that strengthen community impact.</p>
+                        <div class="social-icons">
+                            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#" aria-label="X (Twitter)"><i class="fa-solid fa-x"></i></a>
+                            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="images/project-cc.jpeg" alt="A rural water filtration installation">
+                    <p class="project-title">Water filtration &amp; conservation in rural communities</p>
+                    <p class="project-desc">Providing sustainable water filtration systems and conservation training to underserved rural communities, improving health, reducing scarcity, and building long-term environmental resilience.</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/project-bb.jpeg" alt="Researchers studying water samples">
+                    <p class="project-title">Sponsoring research</p>
+                    <p class="project-desc">Funding scientific research that advances water conservation technology, sustainable management practices, and community-driven solutions to global water challenges.</p>
+                </div>
+                <div class="project-card">
+                    <img src="images/project-aa.jpeg" alt="A community water seminar">
+                    <p class="project-title">Seminars, conferences &amp; educational events</p>
+                    <p class="project-desc">Organizing seminars, conferences, and educational programs that raise awareness, share best practices, and inspire collective action toward water conservation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ DONATE ============ -->
+    <section class="section section-alt" id="donate">
+        <div class="container">
+            <h2 class="section-title">Donate Here</h2>
+
+            <div class="donate-layout">
+                <div class="donate-card">
+                    <p class="donate-intro">Clean water sustains life, and your support protects this precious resource for future generations. By donating today, you help fund vital conservation efforts, restore ecosystems, and ensure communities thrive. Every contribution, big or small, creates lasting impact.</p>
+
+                    <div class="donate-count">
+                        <span class="donate-amount">$405,765</span>
+                        <span class="donate-amount-label">raised so far</span>
+                    </div>
+
+                    <form class="donate-form" id="donation-form">
+                        <fieldset class="donation-frequency">
+                            <legend class="sr-only">Donation frequency</legend>
+                            <input class="donation-radio" type="radio" id="one-time" value="one-time" name="donation-frequency" checked>
+                            <label for="one-time">One time</label>
+                            <input class="donation-radio" type="radio" id="monthly" value="monthly" name="donation-frequency">
+                            <label for="monthly">Monthly</label>
+                        </fieldset>
+
+                        <div class="field">
+                            <label for="donate-email">Email</label>
+                            <input id="donate-email" type="email" placeholder="email@example.com">
+                        </div>
+
+                        <div class="field">
+                            <label>Payment method</label>
+                            <div class="payment-method-icons">
+                                <i class="fa-brands fa-cc-mastercard"></i>
+                                <i class="fa-brands fa-cc-visa"></i>
+                                <i class="fa-brands fa-cc-paypal"></i>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label for="donate-name">Cardholder name</label>
+                            <input id="donate-name" type="text" placeholder="Full name on card">
+                        </div>
+
+                        <div class="field">
+                            <label for="card-number">Card number</label>
+                            <input id="card-number" type="text" inputmode="numeric" placeholder="1234 1234 1234 1234">
+                        </div>
+
+                        <div class="field-row">
+                            <div class="field">
+                                <label for="card-expiry" class="sr-only">Expiry date</label>
+                                <input id="card-expiry" type="text" placeholder="MM/YY">
+                            </div>
+                            <div class="field">
+                                <label for="card-cvc" class="sr-only">CVC</label>
+                                <input id="card-cvc" type="text" inputmode="numeric" placeholder="CVC">
+                            </div>
+                        </div>
+
+                        <div class="field-row">
+                            <div class="field">
+                                <label for="donate-country">Country / region</label>
+                                <select id="donate-country">
+                                    <option>Nigeria</option>
+                                    <option>Cuba</option>
+                                    <option>India</option>
+                                    <option>Brazil</option>
+                                </select>
+                            </div>
+                            <div class="field">
+                                <label for="donate-currency">Currency</label>
+                                <select id="donate-currency">
+                                    <option value="usd">USD ($)</option>
+                                    <option value="naira">NAIRA (₦)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label>Amount</label>
+                            <div class="donation-amount-grid">
+                                <button type="button" class="amount-btn">$100</button>
+                                <button type="button" class="amount-btn">$200</button>
+                                <button type="button" class="amount-btn">$500</button>
+                                <button type="button" class="amount-btn">$1,000</button>
+                                <button type="button" class="amount-btn amount-btn-wide">Other amount</button>
+                            </div>
+                        </div>
+
+                        <div class="donate-buttons">
+                            <button class="btn btn-primary" type="submit">Pay</button>
+                            <button class="btn btn-outline-dark" type="button">Share online</button>
+                        </div>
+                    </form>
+                </div>
+
+                <aside class="donors-card">
+                    <h3 class="donors-heading">Donors</h3>
+                    <ul class="donors-list">
+                        <li><i class="fa-solid fa-user-tie"></i><span>Anonymous</span><span class="donor-amount">$1,000</span></li>
+                        <li><i class="fa-solid fa-user-tie"></i><span>Anonymous</span><span class="donor-amount">$1,000</span></li>
+                        <li><i class="fa-solid fa-user-tie"></i><span>Anonymous</span><span class="donor-amount">$1,000</span></li>
+                        <li><i class="fa-solid fa-user-tie"></i><span>Anonymous</span><span class="donor-amount">$1,000</span></li>
+                        <li><i class="fa-solid fa-user-tie"></i><span>Anonymous</span><span class="donor-amount">$1,000</span></li>
+                        <li><i class="fa-solid fa-user-tie"></i><span>Anonymous</span><span class="donor-amount">$1,000</span></li>
+                        <li><i class="fa-solid fa-user-tie"></i><span>Anonymous</span><span class="donor-amount">$1,000</span></li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+
+            <div class="contact-layout">
+                <div class="contact-card">
+                    <p class="contact-tagline">Suggestions · Complaints · Applications</p>
+                    <p class="contact-lead">Do you have a review, suggestion, or feedback for us? Send us a message.</p>
+
+                    <form class="contact-form">
+                        <div class="field-row">
+                            <div class="field">
+                                <label for="contact-email">Email</label>
+                                <input id="contact-email" type="email" placeholder="email@example.com">
+                            </div>
+                            <div class="field">
+                                <label for="contact-name">Name</label>
+                                <input id="contact-name" type="text" placeholder="Full name">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label for="feedback">Your feedback</label>
+                            <textarea id="feedback" name="feedback" rows="6"></textarea>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="contact-info-grid">
+                <div class="contact-info-card">
+                    <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                    <p class="contact-info-label">Email us</p>
+                    <p class="contact-info-value">hello@throwmeacup.org</p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                    <p class="contact-info-label">Call us</p>
+                    <p class="contact-info-value">+234 804 444 2581</p>
+                </div>
+                <div class="contact-info-card">
+                    <div class="contact-icon"><i class="fa-solid fa-house"></i></div>
+                    <p class="contact-info-label">Visit us</p>
+                    <p class="contact-info-value">109 Hope Street, Conservation Estate, Savior Street, Lagos State, Nigeria</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+    <div class="footer-top">
+        <div class="container footer-top-inner">
+            <a class="brand brand-footer" href="#home">
+                <img src="images/logo-1.png" alt="" class="brand-logo">
+                <span class="brand-name">Throw Me a Cup</span>
+            </a>
+
+            <form class="search-form" id="footer-search-bar" action="search" method="get" role="search">
+                <label class="sr-only" for="footer-search-input">Search the site</label>
+                <input class="search-input" id="footer-search-input" type="text" name="q" placeholder="Search…" required>
+                <button class="search-btn" type="submit" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </form>
+
+            <p class="footer-links"><a href="#contact">Contact Us</a> · <a href="#">Terms &amp; Conditions</a> · <a href="#">Privacy Policy</a></p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container footer-bottom-inner">
+            <div class="footer-nav-block">
+                <nav aria-label="Footer">
+                    <ul class="footer-nav-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#donate">Donate</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="footer-facts">
+                    <div class="fact animate-fadeInUp delay-1">
+                        <p class="fact-number">2+ Billion</p>
+                        <p class="fact-label">People lack clean water access</p>
+                    </div>
+                    <div class="fact animate-fadeInUp delay-2">
+                        <p class="fact-number">50+ Countries</p>
+                        <p class="fact-label">We serve globally</p>
+                    </div>
+                    <div class="fact animate-fadeInUp delay-3">
+                        <p class="fact-number">10K+ Lives</p>
+                        <p class="fact-label">Impacted annually</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-newsletter">
+                <h2>Join our newsletter</h2>
+                <form class="newsletter-form">
+                    <label class="sr-only" for="footer-newsletter-input">Email</label>
+                    <input id="footer-newsletter-input" type="email" placeholder="Your email address">
+                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                </form>
+                <div class="social-icons social-icons-footer">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="X (Twitter)"><i class="fa-solid fa-x"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <div class="footer-bottom-line">
+        <div class="container">
+            <p class="footer-copyright">© 2025 Throw Me a Cup — MAIND</p>
+        </div>
+    </div>
+
+</footer>
+
+<script src="TMAC.js"></script>
+</body>
+</html>

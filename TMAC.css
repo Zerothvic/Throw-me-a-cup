@@ -328,7 +328,6 @@ p:last-child { margin-bottom: 0; }
 
 .home-copy, .home-media { min-width: 0; }
 .home-copy p { color: var(--ink-600); font-size: 1.05rem; }
-.home-copy p:first-child { color: var(--ink-900); font-size: 1.1rem; }
 .communities-line {
     font-style: italic;
     color: var(--teal-600) !important;
